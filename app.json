@@ -1,0 +1,94 @@
+{
+  "configVersion": "v2",
+  "app": {
+    "appId": 1129840,
+    "appName": "Red stripes",
+    "appType": "watchface",
+    "version": {
+      "code": 1,
+      "name": "1.0.0"
+    },
+    "icon": "icon.png",
+    "vender": "zepp",
+    "description": "Outlined digits with red (customizable) diagonal date stripes"
+  },
+  "permissions": [
+    "data:user.hd.step"
+  ],
+  "runtime": {
+    "apiVersion": {
+      "compatible": "2.1.0",
+      "target": "2.1.0",
+      "minVersion": "2.1.0"
+    }
+  },
+  "targets": {
+    "390x450-amazfit-bip-6": {
+      "module": {
+        "watchface": {
+          "path": "watchface/index",
+          "main": 1,
+          "editable": 1,
+          "lockscreen": 1,
+          "hightCost": 0
+        }
+      },
+      "platforms": [
+        {
+          "name": "Pamir",
+          "deviceSource": 9765120
+        },
+        {
+          "name": "PamirW",
+          "deviceSource": 9765121
+        },
+        {
+          "name": "PamirW64",
+          "deviceSource": 10158337
+        },
+        {
+          "name": "Rome64",
+          "deviceSource": 10223872
+        },
+        {
+          "name": "RomeWNFC64",
+          "deviceSource": 10223873
+        },
+        {
+          "name": "RomeW64",
+          "deviceSource": 10223875
+        },
+        {
+          "name": "Hannover",
+          "deviceSource": 8323328
+        },
+        {
+          "name": "HannoverW",
+          "deviceSource": 8323329
+        },
+        {
+          "name": "SwordfishW",
+          "deviceSource": 8257793
+        },
+        {
+          "name": "Lille",
+          "deviceSource": 7995648
+        },
+        {
+          "name": "Lillew",
+          "deviceSource": 7995649
+        }
+      ],
+      "designWidth": 390
+    }
+  },
+  "i18n": {
+    "en-US": {
+      "appName": "Red stripes"
+    },
+    "ru-RU": {
+      "appName": "Красные полосы"
+    }
+  },
+  "defaultLanguage": "en-US"
+}
